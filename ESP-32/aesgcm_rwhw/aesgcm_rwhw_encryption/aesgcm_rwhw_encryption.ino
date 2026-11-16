@@ -9,7 +9,7 @@
 #define MAX_PAYLOAD_SIZE 512 // 16, 32, 64, 128, 256, 512: rebuild per size
 // =========================================================================
 
-#define TAG_SIZE 32
+#define TAG_SIZE 16
 #define ITERATIONS 10000
 
 uint8_t plaintext_buffer[MAX_PAYLOAD_SIZE];
